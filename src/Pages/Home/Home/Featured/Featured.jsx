@@ -3,7 +3,7 @@ import featured from '../../../../assets/featured.jpg';
 import './Featured.css'
 const Featured = () => {
     return (
-        <div class="featured-item bg-fixed text-white my-20">
+        <div class="featured-item bg-fixed text-white my-10">
             <div className="bg-slate-500">
                 <SectionTitle
                     subheading="check it out" heading="Featured Item"
