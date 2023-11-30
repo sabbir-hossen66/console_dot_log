@@ -13,12 +13,12 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 const Catagory = () => {
     return (
         <>
-            <section className='text-center py-10 mt-4'>
+            <section>
                 <SectionTitle
                     subheading={'Open 11.00am to 10.00pm'}
                     heading={'ORDER NOW'}
                 >
-
+                    {/* text-center py-10 mt-4 */}
                 </SectionTitle>
             </section>
             <Swiper
@@ -50,7 +50,9 @@ const Catagory = () => {
                 </SwiperSlide>
 
                 <SwiperSlide><img src={slide1} alt="" />
-                    <h3 className='text-white text-2xl text-center uppercase'>Salad</h3></SwiperSlide>
+                    <h3 className='text-white text-2xl text-center uppercase'>salad</h3>
+
+                </SwiperSlide>
                 {/* <SwiperSlide>slide </SwiperSlide>
                 <SwiperSlide>slide</SwiperSlide>
                 <SwiperSlide>slide 7</SwiperSlide>
